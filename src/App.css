@@ -5,6 +5,19 @@
   justify-content: space-between;
 }
 
+html ::-webkit-scrollbar-track{
+  background: transparent;
+}
+
+html ::-webkit-scrollbar-thumb{
+  background: black;
+  border-radius: 10px;
+}
+
+html ::-webkit-scrollbar{
+  width: 10px;
+}
+
 input{
   width: 20%;
   padding: 10px;
